@@ -1,0 +1,44 @@
+{
+  "name": "react-textbox",
+  "version": "0.1.0",
+  "description": "React component to be used as textarea but much more powerful",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "lint": "eslint src/**; exit 0",
+    "lint:watch": "esw -w src/**",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwsapps/react-textbox.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "textarea",
+    "text",
+    "editable",
+    "centered"
+  ],
+  "author": "Bruno C. Couto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nwsapps/react-textbox/issues"
+  },
+  "homepage": "https://github.com/nwsapps/react-textbox#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-watch": "^3.1.3",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
